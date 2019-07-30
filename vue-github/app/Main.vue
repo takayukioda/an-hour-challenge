@@ -1,5 +1,5 @@
 <template>
-<main>
+<main id="#main">
 	<h1>GitHub Issue Maker</h1>
 	<form>
 		<label for="token">
