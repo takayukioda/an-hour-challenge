@@ -43,6 +43,8 @@ export default {
 			body: '',
 		}
 	},
+	async asyncData() {
+	},
 }
 </script>
 
