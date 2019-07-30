@@ -35,5 +35,16 @@
 </template>
 
 <script>
-
+export default {
+	data () {
+		return {
+			token: '',
+			title: '',
+			body: '',
+		}
+	},
+}
 </script>
+
+<style>
+</style>
