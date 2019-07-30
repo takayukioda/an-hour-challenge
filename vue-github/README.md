@@ -1,6 +1,20 @@
 Vue GitHub
 =====
 
+Result
+-----
+
+commit: `262b3a5`
+
+Couldn't make it.
+Took time for a while to setup vue environment itself... and more over, all of those searches became waste when I found vue cli.
+
+### Steps left (AFAIK)
+
+- On click handling
+- Run async function
+- Actually send request with valid credentials and data
+
 Objective
 -----
 
