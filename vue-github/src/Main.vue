@@ -64,8 +64,11 @@ export default {
 			}
 			this.loading = true
 			axios.post(`https://api.github.com/repos/${this.repository}/issues`, {
+				title: this.title,
+				body: this.body,
+			}, {
 				headers: {
-					Authorization: this.token,
+					Authorization: `Bearer ${this.token}`,
 				},
 			}).then((resp) => {
 				// eslint-disable-next-line
