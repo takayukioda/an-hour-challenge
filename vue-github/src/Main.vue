@@ -38,6 +38,7 @@
 		<input
 			type="submit"
 			value="Make an issue"
+			v-on:click="createIssue"
 		>
 	</form>
 </main>
