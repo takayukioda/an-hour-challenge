@@ -64,7 +64,14 @@ export default {
 				return
 			}
 			this.loading = true
-			axios.post(`https://api.github.com/repos/${this.repository}/issues`)
+			const resp = await axios.post(`https://api.github.com/repos/${this.repository}/issues`, {
+				headers: {
+					Authorization: this.token,
+				},
+			})
+
+			// eslint-disable-next-line
+			console.log(resp.data)
 		}
 	},
 }
